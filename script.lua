@@ -63,7 +63,7 @@ local function YTNSK_fake_script() -- Button.Toggle
 				game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart")
                 game:GetService("Players").LocalPlayer.Character:WaitForChild("Main") -- The function itself (Kinda messy)
                 game:GetService("Players").LocalPlayer.Character.Main:WaitForChild("Swing")
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-47.752182, 1896.27734, 206.116669) -- Tomura's CFrame
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.755913, 1896.27734, 208.189117) -- Tomura's CFrame
 				game:GetService("Players").LocalPlayer.Character.Main.Swing:FireServer(unpack(args))
 		end 
 	else
